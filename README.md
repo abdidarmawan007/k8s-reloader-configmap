@@ -14,3 +14,12 @@ NAME                                           READY   STATUS    RESTARTS   AGE
 reloader-1640070947-reloader-5f55dbc46-hkqpt   1/1     Running   0          39s
 ```
 ### Test create deployment and configmap, try update configmap and deployment automated rolling upgrades
+```
+template:
+    metadata:
+      labels:
+        app: abdi-test
+        env: production 
+      annotations:
+        configmap.reloader.stakater.com/reload: "production-abdi-configmap"
+```
