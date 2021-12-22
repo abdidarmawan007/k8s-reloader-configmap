@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: production-abdi-configmap
+  namespace: production
+data:
+  DATABASE_FLAG_READ: mysql
+  DATABASE_FLAG_WRITE: mysql
+  DATABASE_MYSQL_READ_MAXOPENCONNS: "38"  
