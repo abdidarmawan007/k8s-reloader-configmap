@@ -13,4 +13,4 @@ kubectl get pods -n production
 NAME                                           READY   STATUS    RESTARTS   AGE
 reloader-1640070947-reloader-5f55dbc46-hkqpt   1/1     Running   0          39s
 ```
-### Test create deployment and configmap, try update configmap and deployment automated rolling upgrades on Pods Deploymen
+### Test create deployment and configmap, try update configmap and deployment automated rolling upgrades
